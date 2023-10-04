@@ -1,69 +1,30 @@
-MCQ Quiz Web Application
-MCQ Quiz
+# MCQ Quiz Web Application
 
-Overview
-The MCQ (Multiple Choice Questions) Quiz Web Application is a simple interactive quiz platform that allows users to answer a series of multiple-choice questions. Users can start the quiz, navigate through questions, and submit their answers. After completing the quiz, they will receive their score.
+![MCQ Quiz Screenshot](quiz-screenshot.png)
 
-Features
-Multiple-choice questions and options.
-Timer to track the time for each question.
-Score calculation and display at the end of the quiz.
-Ability to restart the quiz.
-Responsive design for various screen sizes.
-Technologies Used
-HTML
-CSS
-JavaScript
-Getting Started
-To run the MCQ Quiz Web Application, follow these steps:
+## Overview
 
-Clone this repository to your local machine:
+The MCQ (Multiple Choice Questions) Quiz Web Application is a simple and interactive platform that allows users to participate in quizzes containing multiple-choice questions. This web application is designed for educational purposes, allowing instructors to create quizzes and users to test their knowledge on various topics.
 
-shell
-Copy code
-git clone https://github.com/yourusername/mcq-quiz.git
-Open the project folder in a text editor or code editor of your choice.
+## Features
 
-Open the index.html file in a web browser to start the quiz.
+- **Multiple Quizzes**: Create and manage multiple quizzes.
+- **Randomized Questions**: Questions are presented in a random order to users.
+- **Timer**: Set a time limit for each question to make quizzes more challenging.
+- **Score Tracking**: Track and display user scores for each quiz.
+- **Responsive Design**: The application is responsive and works on various devices.
 
-Usage
-Click the "Start" button to begin the quiz.
+## Technologies Used
 
-Answer each multiple-choice question by clicking on one of the provided options.
+- HTML
+- CSS
+- JavaScript
 
-A timer counts down for each question. You must answer within the time limit.
+## Getting Started
 
-After selecting an answer, click the "Next" button to move to the next question.
+To run this MCQ Quiz Web Application locally, follow these steps:
 
-Repeat steps 2-4 for all the questions.
+1. Clone this repository to your local machine:
 
-After answering all the questions, you will see your final score displayed.
-
-You can click the "Restart" button to start the quiz again.
-
-Customization
-You can customize the quiz by modifying the quizArray array in the index.js file. You can add, remove, or modify questions and options as needed.
-
-javascript
-Copy code
-const quizArray = [
-  {
-    id: "0",
-    question: "What does HTML stand for?",
-    options: [
-      "Hyper Text Markup Language",
-      "Highly Typed Machine Learning",
-      "Hyperlink and Text Markup Language",
-      "Hyper Transfer Markup Language",
-    ],
-    correct: "Hyper Text Markup Language",
-  },
-  // Add more questions here
-];
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-This project was created as a learning exercise.
-Special thanks to the community and resources that helped in building this quiz application.
-Feel free to add more details or sections to the README file as needed. This should give users a clear understanding of your MCQ Quiz Web Application and how to use it.
+   ```bash
+   git clone https://github.com/yourusername/mcq-quiz.git
