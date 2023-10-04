@@ -27,4 +27,4 @@ To run this MCQ Quiz Web Application locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/mcq-quiz.git
+   git clone https://github.com/Abdula-j/mcq-quiz.git
